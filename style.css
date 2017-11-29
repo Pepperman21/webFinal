@@ -40,5 +40,13 @@ html, body {
 	height:75px;
 	padding-top:0px;
 }
+
+#sections {
+	margin:0;
+	padding:0;
+	background-color:lightblue;
+	height:100%;
+	width:100%;
+}
 /*end navbar*/
 
