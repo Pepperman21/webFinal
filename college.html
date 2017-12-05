@@ -3,57 +3,76 @@
 <html>
 <head>
 	<title>Five Colleges</title>
-	<link rel="stylesheet" type="text/css" href="../resources/css/college.css">
-	<script type="text/javascript" src="../resources/js/college.js"></script>
+	<link rel="stylesheet" type="text/css" href="resources/css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="resources/css/college.css">
 </head>
 <body>
+<!-- start nav -->
+<!-- from getbootstrap -->
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#"><img alt="Brand" src="resources/images/
+			FiveColleges.png"></a>
+    </div>
 
-<nav id="navbar"> 
-	<img id="logo" src="../resources/images/
-			FiveColleges.png">
-			<ul> 
-				<li><a href="contact.html">Contact</a></li>
-				<li><a href="collegeMatch.html">College Match</a></li>
-				
-				<li><a href="college.html">Colleges</a></li>
-				<li><a href="">About</a></li>
-				<li><a href="index.html">
-				Home</a></li>
-			
-			</ul>
-		</nav>
-<!-- end d -->
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
+        <li><a href="#">Link</a></li>
+        <li><a href="#">Link</a></li>
+        <li><a href="#">Link</a></li>        
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+<!-- end nav -->
+
 <!-- start caden -->
-<div id="sideBar">
+
+<!-- start sidebar -->
+<div  class="container">
+<div class="row">
+<div id="sideBar" class="col-md-2"> 
 	<ul>
-		<li id="amherst">Amherst</li>
-		<li id="hampshire">Hampshire</li>
-		<li id="holyoke">Holyoke</li>
-		<li id="smith">Smith</li>
-		<li id="umass">UMass</li>
+		<li id="amherst" class="hovering">Amherst</li>
+		<li id="hampshire" class="hovering" class="pageSelectFalse">Hampshire</li>
+		<li id="holyoke" class="hovering" class="pageSelectFalse">Holyoke</li>
+		<li id="smith" class="hovering" class="pageSelectFalse">Smith</li>
+		<li id="umass" class="hovering" class="pageSelectFalse">UMass</li>
 	</ul>
 </div>
+</div>
+</div>
 <div id="collegeContent">
-	<div id="collegeAmherst">
-		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vehicula vel mauris ut fermentum. Nulla pharetra consequat felis eget faucibus. Fusce eu erat iaculis lectus consectetur placerat a sed enim. Curabitur iaculis, felis at bibendum rhoncus, ligula eros sagittis neque, id sodales lectus libero quis nunc. Quisque commodo porta nulla sed cursus. Proin nec sapien et mi interdum interdum. Suspendisse consequat metus diam, in ultrices eros auctor mattis.
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam fermentum ut libero at facilisis. In consequat gravida ex ut sollicitudin. Curabitur ornare nisl non velit placerat, in venenatis mi efficitur. Etiam velit lorem, placerat eget mollis at, aliquam nec lectus. Aliquam lacinia, ante vitae tincidunt posuere, odio ante euismod velit, nec vestibulum lorem ex ut eros. Aliquam erat nisl, luctus vitae porta vitae, euismod tincidunt nisi. Etiam tincidunt, sapien eget feugiat hendrerit, mi urna rhoncus tortor, eget aliquam risus erat et dolor. Donec posuere pharetra ante, vel tempor eros elementum ut. Proin ut enim commodo, pulvinar ligula blandit, venenatis nibh.
-
-Sed non nunc consectetur, interdum dui a, vulputate velit. Praesent orci libero, pharetra at felis in, posuere auctor erat. Cras consectetur metus libero, sed laoreet orci dictum in. Praesent justo enim, eleifend vitae finibus ac, dapibus eget mi. Integer vitae erat a justo auctor lacinia. Nunc et erat a velit tincidunt accumsan vitae vel felis. Sed laoreet, tortor a finibus elementum, arcu velit consectetur quam, et posuere quam ex sit amet tellus. Curabitur pulvinar sed quam a facilisis. Aliquam gravida tincidunt lectus. Vivamus fringilla pellentesque tincidunt. Morbi lacus tellus, ultrices non dictum id, tempor eu ante. Proin imperdiet pharetra ullamcorper. Etiam sodales nisl nibh, ut vulputate turpis condimentum non. Nam sit amet mauris quis felis faucibus ultricies. Praesent congue massa ut hendrerit rutrum. Maecenas fermentum pretium iaculis.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vehicula vel mauris ut fermentum. Nulla pharetra consequat felis eget faucibus. Fusce eu erat iaculis lectus consectetur placerat a sed enim. Curabitur iaculis, felis at bibendum rhoncus, ligula eros sagittis neque, id sodales lectus libero quis nunc. Quisque commodo porta nulla sed cursus. Proin nec sapien et mi interdum interdum. Suspendisse consequat metus diam, in ultrices eros auctor mattis.
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam fermentum ut libero at facilisis. In consequat gravida ex ut sollicitudin. Curabitur ornare nisl non velit placerat, in venenatis mi efficitur. Etiam velit lorem, placerat eget mollis at, aliquam nec lectus. Aliquam lacinia, ante vitae tincidunt posuere, odio ante euismod velit, nec vestibulum lorem ex ut eros. Aliquam erat nisl, luctus vitae porta vitae, euismod tincidunt nisi. Etiam tincidunt, sapien eget feugiat hendrerit, mi urna rhoncus tortor, eget aliquam risus erat et dolor. Donec posuere pharetra ante, vel tempor eros elementum ut. Proin ut enim commodo, pulvinar ligula blandit, venenatis nibh.
-
-Sed non nunc consectetur, interdum dui a, vulputate velit. Praesent orci libero, pharetra at felis in, posuere auctor erat. Cras consectetur metus libero, sed laoreet orci dictum in. Praesent justo enim, eleifend vitae finibus ac, dapibus eget mi. Integer vitae erat a justo auctor lacinia. Nunc et erat a velit tincidunt accumsan vitae vel felis. Sed laoreet, tortor a finibus elementum, arcu velit consectetur quam, et posuere quam ex sit amet tellus. Curabitur pulvinar sed quam a facilisis. Aliquam gravida tincidunt lectus. Vivamus fringilla pellentesque tincidunt. Morbi lacus tellus, ultrices non dictum id, tempor eu ante. Proin imperdiet pharetra ullamcorper. Etiam sodales nisl nibh, ut vulputate turpis condimentum non. Nam sit amet mauris quis felis faucibus ultricies. Praesent congue massa ut hendrerit rutrum. Maecenas fermentum pretium iaculis.
-
-Ut eu lacus turpis. Nunc pharetra dui in porttitor egestas. Donec viverra, erat at blandit feugiat, quam lacus aliquam metus, eget accumsan velit leo nec lectus. Vivamus eu odio ligula. Praesent enim ipsum, suscipit eu purus quis, tempus consequat tellus. Cras at enim ac elit finibus luctus. Phasellus at hendrerit ligula.
-
-Phasellus venenatis lacus non odio facilisis pellentesque. Curabitur sed nisi in ex blandit bibendum. Sed convallis sit amet erat et cursus. Integer aliquet urna et felis vulputate, ut faucibus dolor viverra. Aenean sagittis pharetra sapien, sit amet gravida dui dignissim at. Nulla elementum ligula metus, ut sagittis libero ullamcorper ut. Aenean aliquam ipsum sem, dictum placerat ex tincidunt vitae. Morbi ultrices lectus tortor, in ornare enim convallis et. Mauris dictum, enim auctor scelerisque posuere, libero ex molestie enim, id congue odio nunc quis leo. Pellentesque gravida ornare mauris a aliquam.</p>
+	<div id="collegeAmherst" class="visible">
+		<img class="contentPhoto" src="resources/images/college/amherstContentPhoto.jpg">
+		<p>amherst</p>
 	</div>
-	<div id="collegeHampshire"></div>
-	<div id="collegeHolyoke"></div>
-	<div id="collegeSmith"></div>
-	<div id="collegeUMass"></div>
+	<div id="collegeHampshire" class="notVisible">
+		<img class="contentPhoto" src="resources/images/college/hampshireContentPhoto.jpg">
+		<p>hamp</p>
+	</div>
+	<div id="collegeHolyoke" class="notVisible">
+		<img class="contentPhoto" src="resources/images/college/holyokeContentPhoto.jpg">
+		<p>holyoke</p>
+	</div>
+	<div id="collegeSmith" class="notVisible">
+<p>smith</p>
+	</div>
+	<div id="collegeUMass" class="notVisible">
+<p>umass</p>
+	</div>
 </div>
 	</body>
+	<script type="text/javascript" src="resources/js/college.js"></script>
 	</html>
-<!-- end caden
+<!-- end caden -->
