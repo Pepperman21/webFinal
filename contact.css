@@ -2,7 +2,7 @@ html, body {
 
 	margin:0;
 	padding:0;
-	background: #a3bfe3 url(images/contact/FiveColleges.jpg)
+	background: #a3bfe3 url(../images/contact/FiveColleges.jpg)
 
 	no-repeat center center fixed; 
 /*http://static.wixstatic.com/media/117b7a_3090611dcb7d4824991029cba6854165~mv2_d_6000_4000_s_4_2.jpg*/
@@ -125,7 +125,7 @@ background-color:rgba(255,255,255,0.5);
    width:100%;
    height:60px;  
    padding-top:18.5px;
-	padding-bottom:65px;
+	
    background:#f1f1f1;
 
 }

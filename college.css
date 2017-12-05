@@ -1,0 +1,121 @@
+
+
+html, body {
+
+  margin:0;
+  padding:0;
+  background-color:#F1F1F1;
+  height:100%;
+  width:100%;
+  font-family: 'helvetica';
+  
+}
+/*Start nav, Dmitry*/
+/*#navbar {
+   width:100%;
+   height:75px;
+   background-color:#F1F1F1;
+   min-width: 600px;
+   text-align:center;
+   margin:0;
+   padding-top: 1px;
+   position:fixed;
+   z-index: 1;
+   box-shadow: 0px 1px 0px lightgrey;
+  }
+#navbar > ul > li {
+  list-style: none;
+  display: inline-block;
+  float:right;
+  padding-top:10px;
+  font-size:20px;
+}
+#navbar > ul > li > a {
+  text-decoration:none;
+  color:black;
+  padding: 41px 60px;
+}
+#navbar > #logo {
+  float:left;
+  height:75px;
+  padding-top:0px;
+}*/
+/*end nav, dmitry*/
+.navbar.navbar-default {
+margin-bottom: 0px;
+}
+/*start caden*/
+/*start sidebar*/
+.container{
+  margin:0px;
+}
+
+.col-md-2 {
+  padding:0px;
+}
+
+ #sideBar {
+  float:left;
+  height:100%;
+  position:fixed;
+  background-color: white;
+ }
+
+ #sideBar > ul {
+  width:100%;
+  padding:0;
+ }
+
+ #sideBar > ul > li {
+  text-align: center;
+  padding-top: 20%;
+  padding-bottom: 20%;
+  width:100%;
+  list-style: none;
+  font-size: 14pt;
+}
+
+/*end sidebar*/
+/*start content of page*/
+
+#collegeContent {
+  float:right;
+  width:74%;
+}
+
+#collegeContent > p {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.contentPhoto {
+  width:80%;
+  height:auto;
+}
+
+#amherst , #hampshire , #holyoke , #smith , #umass {
+  cursor: pointer;
+}
+
+.hovering {
+  background-color: white; 
+}
+.hovering:hover {
+  background-color: #8b9ebf;
+}
+
+.notVisible {
+display:none;
+}
+
+.visible {
+display:contents;
+}
+
+.pageSelectFalse {
+  background-color: white;
+}
+
+.pageSelectTrue {
+  background-color: #628cd1;
+}
