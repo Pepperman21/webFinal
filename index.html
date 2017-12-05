@@ -2,30 +2,55 @@
 <html>
 <head>
 	<title>Five Colleges</title>
+	<link rel="stylesheet" type="text/css" href="resources/css/bootstrap.css">
 	<link rel="stylesheet" type="text/css" href="resources/css/style.css">
+
+<!-- DMITRY -->
 </head>
 <body>
 
-<nav id="navbar"> 
-	<img id="logo" src="resources/images/
-			FiveColleges.png">
-			<ul> 
-				<li><a href="contact.html">Contact</a></li>
-				<li><a href="collegeMatch.html">College Match</a></li>
-				
-				<li><a href="college.html">Colleges</a></li>
-				<li><a href="#section2">About</a></li>
-				<li><a href="index.html">
-				Home</a></li>
-			
-			</ul>
-		</nav>
+<!-- from getbootstrap -->
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html"><img alt="Brand" src="resources/images/
+			FiveColleges.png"></a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#section2">ABOUT <span class="sr-only">(current)</span></a></li>
+        <li><a href="college.html">COLLEGES</a></li>
+        <li><a href="collegeMatch.html">COLLEGE MATCH</a></li>
+        <li><a href="contact.html">CONTACT</a></li>        
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+<!-- end nav -->
 <div id="section1">
-		<h1>hi</h1>
+	<!-- http://cssdeck.com/labs/imageslider-pager -->
+<div class="container">
+		
+				<img class="mySlides" src="../images/hampshire.jpg">
+<img class="mySlides" src="http://media.masslive.com/umassfootball/photo/10874088-large.jpg">
+<img class="mySlides" src="http://blogs.umass.edu/pmcollins/files/2015/05/chapel_library.jpg">
+<img class="mySlides" src="img_forest.jpg">	
+<button class="w3-button w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+<button class="w3-button w3-display-right" onclick="plusDivs(+1)">&#10095;</button>
+			
 	</div>
  
 	<div  id="section2">
-		<h2>Hello</h2>
+		<h2>About</h2>
 	</div>
 	<footer id="footer">
   <p>Five College Consortium</p>
@@ -36,4 +61,7 @@
 </footer>
 </div>
 </body>
+<script type="text/javascript" src="resources/js/script.js"></script>
+<!-- http://cssdeck.com/labs/imageslider-pager -->
 </html>
+<!-- end DMitry -->
